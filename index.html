@@ -177,7 +177,61 @@
                 	<hr>
                 	<ul>
                 		<h5>
-                			<li><a href="#"> <span style="color: teal;"> <u>Post-silicon Hardware Trojan Detection Using Physical Unclonable Function </u></span> </a> <br> <br>
+                			<li>
+
+                				<a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <span style="color: teal;"> <u>Post-silicon Hardware Trojan Detection Using Physical Unclonable Function </u></span> </a> <br> <br>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Summary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The outsourcing several stages of manufacturing integrated circuit (IC) to foundries is
+increasing, and this raises risks of hardware Trojans (or simply Trojans) insertion into ICs.
+Trojan, a malicious addition and/or modification of existing circuit elements, can be exploited by
+a knowledgeable adversary to cause incorrect results, steal sensitive data, or even incapacitate a
+chip. There are some real life events reported in the literature for which Trojans now get
+attentions to the research community. Post-silicon detection of Trojans in ICs is a challenging
+task since the traditional manufacturing test methods are intended to detect modeled faults but
+Trojans are unknown and unmodeled. Intelligent adversaries can design well-hidden and
+sophisticated trigger conditions which might achieve no triggering during normal manufacturing
+test. Therefore, detection techniques of Trojans in ICs needs to be studied. Numerous Trojan
+detection approaches have been proposed in literature. Existing approaches can be broadly
+classified into logic testing and side-channel analysis. There is a certain advantage of
+using side channel analysis over logic testing for Trojan detection. The presence of Trojans
+inside an IC causes certain distortion which affects the side channel parameters like power,
+delay, and electromagnetic wave. Analyzing these effects has a possibility for detecting Trojans,
+where complete triggering is not required. However, the presence of excessive amount of noises
+like process variations,
+measurement errors, environmental noise etc., prevents Trojans from being detected. Among
+these, process variation is a particularly severe problem and a natural phenomenon which
+unavoidably arises during the manufacturing process of ICs. Due to process variations,
+parameters of transistor are deviated from their nominal values and it is a great hindrance in the
+detection of Trojans.High detection sensitivity in the presence of process variation is a key challenge for hardware
+Trojan detection through post-silicon side channel analysis. In this research project, we present
+an effective and efficient Trojan detection approach in the presence of elevated systematic and
+random process variations through power side-channel analysis using physically unclonable
+function (PUF) and machine learning. The detection sensitivity is sharpened by 1) activating
+small regions to increase Trojan-to-circuit activity, 2) comparing power levels from neighboring
+regions within the same chip so that the two measured values exhibit a common trend in terms of
+both inter-die and intra-die systematic process variation, 3) generating test patterns that toggle
+every cell to increase Trojan activation probability, and 4) selecting random variation tolerant
+test patterns by analyzing different sets of ring oscillator (RO) PUFs through machine learning.
+The detection sensitivity is analyzed by relative power difference (RPD) which is a power
+difference of two neighboring partitions. We evaluate our approach on ISCAS’89 benchmark
+and the AES-128 circuit for both combinational and sequential type Trojans.
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+                				  
                 				  <h6> <i class="fas fa-user-friends"></i> &nbsp; <b>PI:</b> <a href="https://www.aust.edu/eee/faculty_member/dr_fakir_sharif_hossain"> <u>Dr. Fakir Sharif Hossain  </u></a> <br> </h6> 
                 				  
                 				  <h6><i class="fas fa-user-friends"></i> &nbsp;<b>Co-PI:</b> Ashek Seum</h6>
